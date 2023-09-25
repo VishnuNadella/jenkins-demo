@@ -25,7 +25,7 @@ provider "aws" {
 resource "aws_instance" "app_server" {
   ami           = "ami-067c21fb1979f0b27"
   instance_type = "t2.micro"
-  count = 1
+  count = 5
 
   tags = { 
     Name = "ExampleAppServerInstance.${count.index}"
