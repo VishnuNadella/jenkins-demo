@@ -82,7 +82,7 @@ resource "aws_iam_role" "iam_for_lambda" {
 # }
 
 resource "aws_iam_user_policy_attachment" "attach_ec2_describe_policy" {
-  user       = "learning"
+  user       = "learning_update"
   policy_arn = aws_iam_policy.ec2_describe_policy.arn
 }
 
