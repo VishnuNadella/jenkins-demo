@@ -78,7 +78,7 @@ resource "aws_iam_role" "iam_for_lambda" {
 }
 
 # resource "aws_iam_user" "terraform_user" {
-#   name = "learning"
+#   name = "learning_update"
 # }
 
 resource "aws_iam_user_policy_attachment" "attach_ec2_describe_policy" {
